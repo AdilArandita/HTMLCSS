@@ -1,0 +1,41 @@
+body{
+	background-image: url("img/bg1.png");
+}
+
+.wrapper {
+	width: 50%;
+	margin:15px auto;
+	border: #333 5px solid;
+	border-style: groove;
+	background-image: url("img/steel.jpg");
+}
+
+.wrapper:hover{
+	border-radius: 15%;
+	border-color: darkred;
+	transition: 02s;
+}
+
+
+.wrapper > h1{
+	text-shadow: 2px 2px 5px purple;
+	font-size: 50px;
+}
+
+.wrapper > h1:hover{
+	transition: 0.5s;
+	color: red;
+	text-shadow: 5px 5px 5px red;
+	font-size: 60px;
+}
+
+.wrapper > div, h1 {
+	font-family: monospace, lucida console;
+	padding: 1em;
+	text-align: center;
+	cursor: default;
+}
+
+.wrapper > div{
+	margin-bottom: 15px;
+}
